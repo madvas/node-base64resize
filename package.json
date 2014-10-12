@@ -1,0 +1,33 @@
+{
+  "name": "base64resize",
+  "version": "1.0.0",
+  "description": "Resizes base64 image input and returns new base64 string or saves image into filesystem",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madvas/node-base64resize"
+  },
+  "keywords": [
+    "base64",
+    "resize",
+    "image"
+  ],
+  "author": "Matus Lestan <matus.lestan@gmail.com> (https://github.com/madvas)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madvas/node-base64resize/issues"
+  },
+  "homepage": "https://github.com/madvas/node-base64resize",
+  "dependencies": {
+    "canvas": "^1.1.6"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.5",
+    "randombase64": "^0.1.0",
+    "should": "^4.0.4",
+    "validator": "^3.19.1"
+  }
+}
